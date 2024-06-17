@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTotalTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="待办事项总数：" />
+
+        <TextView
+            android:id="@+id/textViewCompletedTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="已完成事项数：" />
+
+        <TextView
+            android:id="@+id/textViewPendingTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="未完成事项数：" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
